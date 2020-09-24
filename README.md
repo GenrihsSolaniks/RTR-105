@@ -68,3 +68,11 @@ uname
    96  man rmdir
   100  rm -r EFG/
   102  rm -r KLM/
+   15  echo $PATH
+   16  ls -l /bin
+   18  nano my_first_shell_script.sh
+   21  PATH=$PATH
+   27  chmod 754 my_first_shell_script.sh
+   29  /home/user/my_first_shell_script.sh
+   31  my_first_shell_script.sh 
+   32  groups
