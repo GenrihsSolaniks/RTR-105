@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+	long int a;
+	long int b;
+	printf (<<Enter the number 1:>>); 
+	scanf(<<% ld>>, & a); 
+	printf(<<Enter the number 2:>>); 
+	scanf(<<% ld>>, & b); 
+	printf(<<v% ld *% ld =% ld>>, a, b, a*b); 
+	return 0;
+}
